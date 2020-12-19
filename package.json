@@ -23,6 +23,7 @@
     "config": "^3.2.3",
     "express": "^4.17.1",
     "mercadopago": "^1.5.2",
+    "mongo": "^0.1.0",
     "paypal-rest-sdk": "^1.8.1",
     "stripe": "^8.128.0"
   }

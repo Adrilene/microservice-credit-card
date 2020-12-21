@@ -1,6 +1,8 @@
-const express    = require('express');
+const express = require('express');
 const bodyParser = require('body-parser');
-const config     = require('config');
+const config = require('config');
+const cors = require('cors')
+
 
 module.exports = () => {
     const app = express();
@@ -10,6 +12,7 @@ module.exports = () => {
 
     // MIDDLEWARES
     app.use(bodyParser.json());
+    app.use(cors());
     require('../credit-card/routes/credit_card_routes')(app);
     return app;
 };

@@ -1,21 +1,20 @@
 {
     "credit_cards": {
-        "data": [
-            {
+        "data": [{
                 "number": "4242 4242 4242 4242",
-                "cvv": 234,
-                "balance": 0,
+                "cvv": "234",
+                "balance": 500,
                 "flag": "visa"
             },
             {
                 "number": "5454 5454 5454 5454",
-                "cvv": 456,
+                "cvv": "456",
                 "balance": 100,
                 "flag": "mastercard"
             },
             {
                 "number": "3056 9300 0902 0004",
-                "cvv": 345,
+                "cvv": "345",
                 "balance": 200,
                 "flag": "dinersclub"
             }
